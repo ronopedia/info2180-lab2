@@ -1,0 +1,133 @@
+html, body{
+  font family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif.
+  font-size: 18px;
+  color: #2D3748S;
+  margin: 0;
+  height: 100px;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'space main main main aside aside'
+    'footer footer footer footer footer footer';
+}
+.grid-container > div {
+  padding: 20px 0;
+  font-size: 18px;
+}
+.flex-container {
+  display: flex;
+  background-color: #63B3ED;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+header {
+  color: #FFFFFF;
+  padding-bottom: 0px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+header p{
+ margin-top: 0;
+}
+.header { 
+  grid-area: header; 
+}
+.aside { 
+  grid-area: aside; 
+}
+.main { 
+  grid-area: main; 
+}
+
+main {
+  margin: 0;
+  padding-left: 50px;
+}
+.footer { 
+  grid-area: footer; 
+}
+
+aside {
+  grid-area: right;
+  width: 70%;
+  padding-left: 70px;
+  padding-right: 10px;
+  padding-top: 5px;
+  
+}
+.about {
+ background-color: #E2E8F0;
+ 
+}
+.ab  {
+  color: #000000;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h3.sm {
+  color: #48BB78;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+h3.ar {
+  color: #48BB78;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+footer {
+ grid-area; footer;
+ background-color: #2C5282;
+ color: #FFFFFF;
+ padding-left: 50px;
+ padding-top: 1px;
+ padding-bottom: 1px;
+}
+
+h1{
+  font-size: 36px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 0;
+}
+h2{
+  font-size: 32px;
+  color: #48BB78;
+  text-align: left;
+}
+h3{
+  font-size: 18px;
+  color: #718096;
+}
+p {
+  font-size: 18px;
+  font-color: #2D3748;
+}
+a {
+  color: #4299E1;
+  text-decoration: none;
+}
+aside li {
+  list-style: none;
+}
+aside ul {
+  padding-left: 0;
+}
+
+header img {
+  border-radius: 50%;
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  
+}
+.img1 {
+ float: right; 
+
+}
+.img2 {
+ float: left;
+ 
+}
